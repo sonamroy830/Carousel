@@ -1,0 +1,130 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+    border-bottom: 5px solid #1b93b4;
+}
+
+#container {
+    width: 30rem;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+#container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.center-align {
+    display: flex;
+    justify-content: center;
+}
+
+#avatar {
+    border-radius: 50%;
+    border: 1px solid #d3d3d3;
+}
+
+#name {
+    font-size: 1.4rem;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+#designation {
+    margin: 0;
+    margin-top: 0.3rem;
+    font-weight: bold;
+    color: #1b93b4;
+}
+
+.left-right-arrow-cont {
+    display: flex;
+    justify-content: center;
+}
+
+#left-right-arrow {
+    margin-bottom: 0.5em;
+    background-color: #e7f4ff;
+    width: fit-content;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    border-radius: 5px;
+}
+
+.arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 0.2em;
+    width: 2rem;
+    height: 2rem;
+}
+
+.arrow-container:hover {
+    background-color: #aed7f9;
+    transition: all 0.5s ease-out;
+}
+
+.fas {
+    color: #000405;
+}
+
+#random {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #e7f4ff;
+    color: #1b93b4;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#random:hover {
+    background-color: #aed7f9;
+    transition: all 0.5s ease-out;
+}
+
+.quote-container {
+    position: relative;
+    right: 7.5rem;
+    top: 0.4rem;
+}
+
+.fa-quote-left {
+    background-color: #1b93b4;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 0.6rem;
+}
+
+#review-container {
+    margin-bottom: 2rem;
+    max-height: 4.8rem;
+    overflow: hidden;
+    position: relative;
+}
+
+#review-container a {
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    background-color: #fff;
+    color: #1b93b4;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+#review-container a:hover {
+    background-color: #e7f4ff;
+    transition: all 0.5s ease-out;
+}
